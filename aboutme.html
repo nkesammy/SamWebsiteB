@@ -1,62 +1,87 @@
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sams Y. Nkesa</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sammy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Samsimbom Nkesa</a>
+            <button class="navbar-toggler"
+             type="button" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#navmenu"
+             >
+             <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <body>
-        <div class="page-header">
-            <h2><b>Samsimbom Nkesa</b></h2>
-
-            <nav class="navbar navbar-expand-md">
-                <div class="collapse navbar-collapse" id="main-navigation">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutme.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutme.html" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        
+    </nav>
 
-        <div class="container-md">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="sam.jpg" alt="sam" width="500" length="500">
+    <!--Experience & Education-->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                   <img src="img/coding.svg" class="img-fluid" alt="fundamentals"> 
                 </div>
-                <div class="col-md-8">
-                    <p>I am Samsimbom Nkesa. I am a web developer. You can reach out for your website projects. Contact me on WhatsApp or send me an email.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-md p-5">
+                    <h2>Professional Experience</h2>
+                    <p class="lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et modi hic expedita delectus rerum mollitia.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, eaque quisquam reprehenderit sed nisi incidunt. Veritatis fugiat quidem porro dolores ad eos esse sint officia quisquam. Praesentium esse vel ducimus!</p>
                 </div>
             </div>
         </div>
 
-        <div class="page-footer">
-            <div class="container">
-                <div class="col-md-12">
-                <a href="https://www.facebook.com/nkesa.samsimbom?mibextid=ZbWKwL" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/SammyNkesa?t=fs7o3IYLWQ-o1xb9Ezvg&s=09" class="fa fa-twitter"></a>
-                <a href="https://wa.me/237678603663" class="fa fa-whatsapp"></a>
+    </section>
+
+    <section id="aboutme" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Education</h2>
+                    <p class="lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et modi hic expedita delectus rerum mollitia.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, eaque quisquam reprehenderit sed nisi incidunt. Veritatis fugiat quidem porro dolores ad eos esse sint officia quisquam. Praesentium esse vel ducimus!</p>
                 </div>
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" class="img-fluid" alt="fundamentals"> 
+                 </div>
             </div>
         </div>
+    </section>
 
-
-        <!-- Bootstrap JS Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
-</html>
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2024 Samsimbom Nkesa</p>
+        </div>
+        
+    </footer>
